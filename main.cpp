@@ -18,6 +18,8 @@ int main()
     using std::endl;
     using std::string;
     
+    cout << "Hello, World" << endl;
+    
     smart_ptr<string> s1(new string("Smart string"));
     smart_ptr<string> s2;
     
